@@ -5,7 +5,7 @@ This folder is reserved for the original source data used in this project.
 The original source files are not included in this repository.
 The analysis uses the consolidated and cleaned dataset available at:
 
-`data/processed/jakarta_ispu_2016_2025_cleaned.csv`
+`Data/Processed/jakarta_ispu_2016_2025_cleaned.csv`
 
 ## Data Source
 

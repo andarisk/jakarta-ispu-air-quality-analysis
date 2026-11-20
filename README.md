@@ -12,11 +12,11 @@ The goal is to move from **raw air-quality records → structured analysis → i
 
 ### Overview
 
-![Jakarta Air Quality Dashboard — Overview](dashboard/dashboard_overview.png)
+![Jakarta Air Quality Dashboard — Overview](PowerBI/dashboard_overview.png)
 
 ### Trends & Station Analysis
 
-![Jakarta Air Quality Dashboard — Trends and Station Analysis](dashboard/dashboard_trends_station_analysis.png)
+![Jakarta Air Quality Dashboard — Trends and Station Analysis](PowerBI/dashboard_trends_station_analysis.png)
 
 ---
 
@@ -63,7 +63,7 @@ The dataset was sourced from **[Satu Data Jakarta](https://satudata.jakarta.go.i
 | `category` | Original category label from the source data |
 | `category_revised` | Standardized English category used in this analysis |
 
-**Data interpretation note:** The pollutant fields are treated as ISPU sub-index values, not raw ambient pollutant concentrations. Refer to the [Data Dictionary](documentation/data_dictionary.md) for all field definitions and data types.
+**Data interpretation note:** The pollutant fields are treated as ISPU sub-index values, not raw ambient pollutant concentrations. Refer to the [Data Dictionary](Documentation/data_dictionary.md) for all field definitions and data types.
 
 ### Data Quality Checks
 
@@ -230,7 +230,7 @@ These are analytical follow-up directions, not causal conclusions or formal poli
 - The 31 lower-granularity December 2022 records from the 2022 source file were not retained when the five-station representation from the 2023 source file was used. These were treated as overlapping reports with different granularity, not as confirmed exact duplicates.
 - Pollutant fields represent ISPU sub-index values; no raw concentration units are inferred in this project.
 
-See the [Data Cleaning Documentation](documentation/data_cleaning_documentation.md) for detailed cleaning decisions, record reconciliation, missing-value counts, and validation notes.
+See the [Data Cleaning Documentation](Documentation/data_cleaning_documentation.md) for detailed cleaning decisions, record reconciliation, missing-value counts, and validation notes.
 
 ## 📂 Project Structure
 
@@ -239,18 +239,10 @@ jakarta-ispu-air-quality-analysis/
 │
 ├── README.md
 │
-├── Data/
-│   ├── Raw/
-│   │   ├── ispu_jakarta_2016.csv
-│   │   ├── ispu_jakarta_2017.csv
-│   │   ├── ispu_jakarta_2018.csv
-│   │   ├── ispu_jakarta_2019.csv
-│   │   ├── ispu_jakarta_2020.csv
-│   │   ├── ispu_jakarta_2021.csv
-│   │   ├── ispu_jakarta_2022.csv
-│   │   ├── ispu_jakarta_2023.csv
-│   │   └── ispu_jakarta_2024-2025.csv
-│   └── Processed/
+├── Data/ 
+│   ├── Raw/ 
+│   │   └── README.md 
+│   └── Processed/ 
 │       └── jakarta_ispu_2016_2025_cleaned.csv
 │
 ├── Excel/

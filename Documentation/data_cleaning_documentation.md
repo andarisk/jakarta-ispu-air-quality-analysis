@@ -242,7 +242,7 @@ The Excel analysis workbook contains the following worksheets:
     `category_revised`.
 
 The final CSV dataset is stored separately in the repository under
-`data/processed/`.
+`Data/Processed/`.
 
 ------------------------------------------------------------------------
 

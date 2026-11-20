@@ -90,6 +90,6 @@ Missing values are retained as missing and are not imputed. In the CSV, missing 
 
 ### Related files
 
-- `data/processed/jakarta_ispu_2016_2025_cleaned.csv` — cleaned dataset described by this dictionary.
-- `excel/jakarta_ispu_excel_analysis.xlsx` — Excel workbook containing raw data, cleaned data, and supporting summaries.
-- `documentation/data_cleaning_documentation.md` — data preparation workflow, data-quality issues, record reconciliation, and limitations.
+- `Data/Processed/jakarta_ispu_2016_2025_cleaned.csv` — cleaned dataset described by this dictionary.
+- `Excel/jakarta_ispu_excel_analysis.xlsx` — Excel workbook containing raw data, cleaned data, and supporting summaries.
+- `Documentation/data_cleaning_documentation.md` — data preparation workflow, data-quality issues, record reconciliation, and limitations.
